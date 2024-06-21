@@ -14,10 +14,10 @@ describe ("Srednia arytmetyczna", function () {
 
 });
 
-describe ("Test suite", function () {
+describe ("palindrom", function () {
 
-    it("Test the add method", function () {
-        expect(myFun.srednia (1,7,7)).to.be.equal(5);
+    it("Test if word is palindrome", function () {
+        expect(myFun.palindrom ("mam")).to.be.equal(true);
     });
 
 });
