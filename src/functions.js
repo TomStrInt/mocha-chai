@@ -9,6 +9,8 @@ class myFunctions {
         sum = x + y + z; 
         return sum/3;
         }
+     
+
         // moja druga funckja, sprawdzanie czy wyraz jest palindromem
     palindrom(s){
         let j = s.length - 1
